@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liverpool FC</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" media="screen and (min-width: 615px)" href="../css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="../css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="../css/large.css">
+
+    <style>
+        body {
+            background: #333;
+        }
+        
+        footer {
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div w3-include-html="./nav.html"></div>
+    <div w3-include-html="./header.html"></div>
+
+    <main class="wrapper-table">
+        <h2>Spotkania</h2>
+
+        <div class="fixtures">
+            <ul>
+                <li>21.01 - 21:00 - Burnley <i class="fas fa-arrow-alt-circle-left home"></i>
+                </li>
+                <hr>
+                <li>24.01 - 18:00 - Manchester United <i class="fas fa-arrow-alt-circle-right away"></i></li>
+                <hr>
+                <li>28.01 - 21:00 - Tottenham Hotspur <i class="fas fa-arrow-alt-circle-right away"></i></li>
+                <hr>
+                <li>31.01 - 17:30 - West Ham United <i class="fas fa-arrow-alt-circle-right away"></i></li>
+                <hr>
+                <li>03.02 - 21:00 - Brighton Albion <i class="fas fa-arrow-alt-circle-left home"></i></li>
+                <hr>
+                <li>06.02 - 16:00 - Manchester City <i class="fas fa-arrow-alt-circle-left home"></i></li>
+                <hr>
+                <li>13.02 - 16:00 - Leicester City <i class="fas fa-arrow-alt-circle-right away"></i></li>
+            </ul>
+        </div>
+
+    </main>
+
+    <div w3-include-html="./footer.html"></div>
+
+    <script src="../js/script.js"></script>
+    <script>
+        includeHTML();
+    </script>
+
+</body>
+
+</html>

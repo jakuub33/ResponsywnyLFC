@@ -1,0 +1,27 @@
+/* Extra large devices (large desktops, 1200px and up) */
+
+/* HEADER */
+.header-img {
+    background-image: url('../img/header1920.jpg');
+    background-size: cover;
+}
+
+.header-text h1 {
+    font-size: 40px;
+}
+
+/* MAIN */
+.top {    
+    background-image: url('../img/ynwa1920.jpg');   
+    background-size: 95% 95%; 
+}
+
+.middle {    
+    background-image: url('../img/anfield1920.jpg');
+    background-size: 80% 80%;
+}
+
+.bottom {    
+    background-image: url('../img/logo1920.jpg');
+    background-size: 82% 60%;
+}

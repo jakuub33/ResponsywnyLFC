@@ -1,0 +1,33 @@
+/* Small devices (landscape phones, 615px and up) */
+.header-img {
+    background-image: url('../img/header1280.jpg');
+}
+
+.header-text h1 {
+    font-size: 36px;
+}
+
+.header-text p {
+    font-size: 19px;
+}
+
+/* MAIN */
+
+.top {    
+    background-image: url('../img/ynwa1280.jpg');   
+    background-size: 110% 90%; 
+}
+
+.middle {    
+    background-image: url('../img/anfield1280.jpg');
+    background-size: 100% 90%;
+}
+
+.bottom {    
+    background-image: url('../img/logo1280.jpg');
+    background-size: 100% 50%;
+}
+
+.history-text {
+    width: auto;
+}

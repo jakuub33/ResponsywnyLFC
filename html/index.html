@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jakub Szymański">
+    <meta name="keywords" content="Liverpool, lfc, football, reds, ynwa">
+    <meta name="description" content="Strona o klubie piłkarskim Liverpool FC.">
+    <title>Liverpool FC</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" media="screen and (min-width: 615px)" href="../css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="../css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="../css/large.css">       
+
+</head>
+
+<body>
+        
+    <div id="up" w3-include-html="./nav.html"></div>
+    <div w3-include-html="./header.html"></div>    
+
+    <main class="wrapper">     
+        <h2>Historia</h2>
+        <section class="main-rectangles top">
+            <div class="history-text">
+                <h3>Klub</h3>
+                <p>Liverpool Football Club powstał w 1892 roku na Anfield Road przez Johna Houldinga i jego przyjaciół. Przez tyle lat klub osiągnął wiele trofeów: 19-krotni Mistrzowie Kraju, 7-krotni zwycięzcy FA Cup, 8-krotni zwycięzcy Pucharu Ligi, 3-krotni zdobywcy Ligi Europy, 6-krotni zdobywcy Ligi Mistrzów i 4-krotni zdobywcy Superpucharu UEFA.</p>
+            </div>
+            <!-- <a href=""><button>hymn</button></a> -->
+            <audio class="btn" controls="controls" src="../mp3/ynwa.mp3"></audio>
+            <div class="shadow-rectangles"></div>
+        </section>
+
+        <section class="main-rectangles middle">
+            <div class="history-text">
+                <h3>Stadion</h3>
+                <p>Anfield - powstał w 1884 roku i początkowo wykorzystywany był przez Everton, aż do 1892 roku od tego czasu na Anfield swoje mecze rozgrywa Liverpool. Obiekt może pomieścić 54 074 widzów. Trybuna główna nazywa się „Main Stand”, na przeciwko „Kenny Dalglish Stand”, po prawej stronie „The Kop”, a trybuna dla gości to „Anfield Road Stand”.</p>
+            </div>
+            <a href="./stadion.html"><button class="btn">Galeria</button></a>
+            <div class="shadow-rectangles"></div>
+        </section>
+
+        <section class="main-rectangles bottom">
+            <div class="history-text">
+                <h3>Herb</h3>
+                <p>W samym centrum znajduje się Liverbird (mityczna kreatura), na szczycie napis You'll Never Walk Alone, który jest tytułem hymnu. Po bokach znajdują się płomienie, które upamiętniają 96 ofiar tragedii Hillsborough w roku 1989. W dolnej części widnieje rok założenia klubu. Herb przekształcano kilka razy.</p>
+            </div>            
+            <a href="#up"><button class="btn">do góry</button></a>
+            <div class="shadow-rectangles"></div>
+        </section>
+    </main>
+
+    <div w3-include-html="./footer.html"></div>
+
+    <script src="../js/script.js"></script>
+    <script>
+        includeHTML();
+    </script>
+
+</body>
+
+</html>

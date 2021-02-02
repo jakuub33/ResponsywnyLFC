@@ -1,0 +1,81 @@
+/* Medium devices (tablets, 768px and up) */
+
+header {
+    margin-top: 0;
+}
+
+.header-text {
+    left: 35%;
+}
+
+/* NAWIGACJA */
+#nav-mobile {
+    display: none;
+}
+
+.nav-desktop {
+    display: block;
+}
+
+.nav-desktop li {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-desktop li a {
+    padding: 0 25px;
+    display: block;
+    color: white;
+    text-decoration: none;    
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: border .4s, background-color .4s;
+}
+
+.main-page {
+    font-size: 21px;
+    padding: 0 15px;
+}
+
+.nav-desktop li:hover a {
+    border: 1px solid white;
+    background-color: rgb(94, 0, 0);
+}
+
+/* Chowanie rozwijanego menu */
+#submenu {
+    position: absolute;
+    left: -20px;    
+    visibility: hidden;
+}
+
+/* Pojawia sie rozwijane menu */
+li:hover ul#submenu {   
+    visibility: visible;
+}
+
+#submenu li {
+    width: 100%;
+}
+
+/* Tło rozwijanego menu */
+#submenu a:hover {
+    background-color: #333;
+}
+
+#submenu a {
+    border: 1px solid white;
+    background-color: rgb(94, 0, 0);
+}
+
+/* FOOTER */
+footer {
+    font-size: 20px;
+}
+
+.foot-icon {
+    margin-left: 20px;
+    font-size: 24px;   
+}
